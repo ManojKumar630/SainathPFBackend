@@ -41,8 +41,7 @@ Message: ${message}
   try {
     await transporter.sendMail({
       from: email,
-      to: 'manoj63042@gmail.comgit add .
-',          // Where you want to receive the message
+      to: 'manoj63042@gmail.com',          // Where you want to receive the message
       subject: subject,
       text: emailContent
     });
